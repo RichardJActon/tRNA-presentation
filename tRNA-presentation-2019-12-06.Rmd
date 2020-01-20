@@ -69,7 +69,7 @@ Understanding Ageing
 Epigenetics - Hub of the Hallmarks of Ageing
 
 ```{r, out.width='50%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/Booth2016_F3_epigenomeHubAgingHallmarks.png")
+knitr::include_graphics("graphics/Booth2016_F3_epigenomeHubAgingHallmarks.png")
 ```
 
 <small>Booth & Brunet 2016 *MolCell* [@Booth2016]</small>
@@ -95,7 +95,7 @@ Loss of epigenetic information $\rightarrow$ Dysregulation
 Epigenetic Changes Capture Biological Ageing
 
 ```{r, out.width='40%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/LBC1921_Horvath1_survival.png")
+knitr::include_graphics("graphics/LBC1921_Horvath1_survival.png")
 ```
 
 Survival is better in those with decelerated DNAm Age
@@ -110,7 +110,7 @@ Survival is better in those with decelerated DNAm Age
 - tRNA-iMet-CAT-1-4 DNAm $\uparrow$ with Age
 
 ```{r, out.width='90%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/Bell2016_GenBio_FigS1p55_tRNAMet_a-DMR.png")
+knitr::include_graphics("graphics/Bell2016_GenBio_FigS1p55_tRNAMet_a-DMR.png")
 ```
 
 # Why Transfer RNAs (tRNAs)? {data-transition="none"}
@@ -121,13 +121,13 @@ knitr::include_graphics("./graphics/Bell2016_GenBio_FigS1p55_tRNAMet_a-DMR.png")
 - tRNA-iMet-CAT-1-4 DNAm $\uparrow$ with Age
 
 ```{r, out.width='90%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/Bell2016_GenBio_FigS1p55_tRNAMet_a-DMR_circle.png")
+knitr::include_graphics("graphics/Bell2016_GenBio_FigS1p55_tRNAMet_a-DMR_circle.png")
 ```
 
 ## tRNAs
 
 ```{r, out.width='50%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/translation5.gif")
+knitr::include_graphics("graphics/translation5.gif")
 ```
 
 Fundamental to the information flow from DNA to Protein
@@ -135,7 +135,7 @@ Fundamental to the information flow from DNA to Protein
 ## Extra-translatory Role
 
 ```{r, out.width='55%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/tRNAderivedSmallRNARoles.png")
+knitr::include_graphics("graphics/tRNAderivedSmallRNARoles.png")
 ```
 
 $+$ internal tRNA fragments & piRNAs
@@ -149,7 +149,7 @@ $+$ internal tRNA fragments & piRNAs
 - Experimentally DNAm $\uparrow\ \rightarrow$ tRNA Expression $\downarrow$ <small>Besser et al. 1990 *FEBS letters* [@Besser1990]</small>
 
 ```{r out.width='50%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/tRNA-PollIII_white.png")
+knitr::include_graphics("graphics/tRNA-PollIII_white.png")
 ```
 
 ## tRNAs in Ageing
@@ -216,22 +216,16 @@ tRNAs %>%
 - Non-equivalent translational efficiency <small>(Geslain et al. 2010 *J Mol Biol* [@Geslain2010])</small>
 
 ```{r out.width='20%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/isodecoder.png")
+knitr::include_graphics("graphics/isodecoder.png")
 ```
 
 ## tRNA gene Copy Number
 
 ```{r, out.width='85%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/kutteresq_BLcount.png")
+knitr::include_graphics("graphics/kutteresq_BLcount.png")
 ```
 
 () = pseudo genes, [] = in blacklisted regions
-
-## tRNAs & Disease
-
-- Synonymous CFTR mutation to low abundance tRNA causes misfolding <small>(Kirchner et al. 2017 *PLoS Bio* [@Kirchner2017])</small>
-- tRNA fragments implicated in neuro-developmental disorders <small>(Blanco et al. 2014 *EMBO* [@Blanco2014])</small>
-
 
 # Results
 
@@ -249,8 +243,8 @@ knitr::include_graphics("./graphics/kutteresq_BLcount.png")
 ```{r out.width='35%', fig.show='hold', fig.align = 'center', echo=FALSE}
 knitr::include_graphics(
 	c(
-		"./graphics/chip-seq.jpeg",
-		"./graphics/500bpwindowsing_bg.png"
+		"graphics/chip-seq.jpeg",
+		"graphics/500bpwindowsing_bg.png"
 	)
 )
 ```
@@ -258,12 +252,6 @@ knitr::include_graphics(
 <section data-notes="
 	- Quantile normalised RPM
 "></section>
-
-## Mappability
-
-```{r out.width='65%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/mappabilityScoreDensity_tRNAVsFlank500.png")
-```
 
 ## Age-related DNA hypermethyation
 
@@ -315,17 +303,7 @@ bb6tRNASummaryTabKable
 
 ```{r out.width='80%', fig.show='hold', fig.align = 'center', echo=FALSE}
 knitr::include_graphics(
-	"./graphics/nSigWinProps_WGfishers_BB_sws_hyper_2_BL_noPolyBivExcl_BarTxtast_sr.png"
-)
-```
-
-## CpG Density Permutation
-
-- Sampled windows with matching CpG density 
-
-```{r out.width='75%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics(
-	"./graphics/tRNA-poly-bivP_n1000_combined_perm_hist.png"
+	"graphics/nSigWinProps_WGfishers_BB_sws_hyper_2_BL_noPolyBivExcl_BarTxtast_sr.png"
 )
 ```
 
@@ -336,7 +314,7 @@ knitr::include_graphics(
 - Imperfect methylation Quantitation (especially at low DNAm)
 
 ```{r out.width='25%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/chip-seq.jpeg")
+knitr::include_graphics("graphics/chip-seq.jpeg")
 ```
 
 ## Neonate & Centenarian
@@ -345,7 +323,7 @@ knitr::include_graphics("./graphics/chip-seq.jpeg")
 - tRNA hypermethylation even between single individuals 
 
 ```{r out.width='45%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/heynViolinBBswsOnlyLabelled_BL.png")
+knitr::include_graphics("graphics/heynViolinBBswsOnlyLabelled_BL.png")
 ```
 
 ## Validation in 450k array
@@ -357,7 +335,7 @@ knitr::include_graphics("./graphics/heynViolinBBswsOnlyLabelled_BL.png")
 - Cell-type corrected
 
 ```{r out.width='50%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/blood_epitwins450k_Counts_sws_bl.png")
+knitr::include_graphics("graphics/blood_epitwins450k_Counts_sws_bl.png")
 ```
 
 ## Targeted Bisulfite Sequencing (BiS-seq)
@@ -402,18 +380,8 @@ Pooled Samples approach (N = 190, ~25 per pool)
 ```
 
 ```{r out.width='55%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/pooling.png")
+knitr::include_graphics("graphics/pooling.png")
 ```
-
-## DNAmAge of Pooled Samples
-
-DNAm age prediction to test pooling approach
-
-```{r out.width='55%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/DNAmAgeVsChronAge.png")
-```
-
-<small>Horvath 2013 *Genome Biol* [@Horvath2013]</small>
 
 ## Targeted (BiS-seq) Results
 
@@ -421,13 +389,7 @@ knitr::include_graphics("./graphics/DNAmAgeVsChronAge.png")
 - Differences between Duplicates / Isodecoders
 
 ```{r out.width='85%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/combinedKaryoplots_sig_bl_1.png")
-```
-
-## tRNA-iMet-CAT-1-4 individual CpG Hypermethylation
-
-```{r out.width='60%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/tRNA-iMet-CAT-1-4_nomSig_CpG.png")
+knitr::include_graphics("graphics/combinedKaryoplots_sig_bl_1.png")
 ```
 
 ## tRNA gene methylation by Cell-type 
@@ -442,7 +404,7 @@ $\therefore$
 Age-related $\uparrow$ myeloid cell proportion $\rightarrow$ age-related hypermethylation $\downarrow$
 
 ```{r out.width='55%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/meanMethbytRNAMatLowBB6_bl.png")
+knitr::include_graphics("graphics/meanMethbytRNAMatLowBB6_bl.png")
 ```
 
 ## Mouse `r ji("mouse2")`
@@ -453,7 +415,7 @@ knitr::include_graphics("./graphics/meanMethbytRNAMatLowBB6_bl.png")
 - 3 significant all $\uparrow$ (p < $1.08 \times 10^{-4}$)
 
 ```{r out.width='60%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/CpGPlotComb.png")
+knitr::include_graphics("graphics/CpGPlotComb.png")
 ```
 
 <small>Petkovich et al. 2017 *Cell Met* [@Petkovich2017]</small>
@@ -466,7 +428,7 @@ Age hypermethylating tRNAs more Enhancer-like state (Enh, EnhBiv & EnhG)
 	- (Fisher's Exact test p = 0.01)
 
 ```{r out.width='65%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/maxScoreBytRNAtRNAge6SplitPlot_BL.png")
+knitr::include_graphics("graphics/maxScoreBytRNAtRNAge6SplitPlot_BL.png")
 ```
 
 [Epilogos](https://epilogos.altius.org/) 'Blood & T-cell' 15 State model (tRNA genes +/- 200bp)
@@ -494,7 +456,7 @@ Loher et al. 2017 *Sci Repts* [@Loher2017], Juzenas et al. 2017 *NAR* [@Juzenas2
 - tRNA-Gln-CTG-7-1 is in the 16 tRNAome-wide significant hypermethylators 
 
 ```{r out.width='65%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/nonSigIsoMapbbswsPlotsGln-CTG.png")
+knitr::include_graphics("graphics/nonSigIsoMapbbswsPlotsGln-CTG.png")
 ```
 
 - Suggests age-related decline in Gln-CTG family tRNA expression
@@ -511,6 +473,24 @@ knitr::include_graphics("./graphics/nonSigIsoMapbbswsPlotsGln-CTG.png")
 - tRNA are in early replicating regions
 	- Possible reason for hypermethylation <small>(Muller & Nieduszynski 2017 *J Cell Biol*, [@Muller2017], Du et at. 2019 *Nat Comms* [@Du1029])</small>
 
+$BioR \chi v$ [https://doi.org/10.1101/870352](https://doi.org/10.1101/870352) - Under Consideration at Nature Communications
+
+# Other Work
+
+## Haplotype Specific Methylation Website
+
+```{r, out.width='70%', fig.show='hold', fig.align = 'center', echo=FALSE}
+knitr::include_graphics("graphics/HSM-website.png")
+```
+
+## EWAS
+
+E.g. Periosteal circumference (6yr)
+
+```{r, out.width='80%', fig.show='hold', fig.align = 'center', echo=FALSE}
+knitr::include_graphics("graphics/s3peric-EWAS-all-SWS-manhattan.png")
+```
+
 # Current Work - Alu Clock
 
 - Constructing a DNAm clock using Alu elements
@@ -519,7 +499,7 @@ knitr::include_graphics("./graphics/nonSigIsoMapbbswsPlotsGln-CTG.png")
 - GWAS for Alu Age acceleration
 
 ```{r, out.width='85%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/Alu_study_design_2019-12-05.png")
+knitr::include_graphics("graphics/Alu_study_design_2019-12-05.png")
 ```
 
 # Acknowledgements
@@ -546,7 +526,7 @@ github: [richardjacton.github.io](http://richardjacton.github.io)
 orcid: [0000-0002-2574-9611](https://orcid.org/0000-0002-2574-9611)
 
 ```{r, echo=FALSE, fig.align = 'center', fig.width=1.5, fig.height=1.5,dpi=96}
-url <- "https://richardjacton.github.io/LEC-tRNA-presentation-2019-12-06/LEC-tRNA-presentation-2019-12-06.html"
+url <- "https://richardjacton.github.io/tRNA-presentation-2020-01-22/tRNA-presentation-2020-01-22.html"
 par(mar = c(0, 0, 0, 0))
 dataMasked <- qrcode_gen(url, dataOutput=TRUE, plotQRcode = FALSE)
 heatmap(
@@ -573,7 +553,7 @@ heatmap(
 ## Human tRNAome
 
 ```{r, out.width='85%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("./graphics/kutteresq_BLcount.png")
+knitr::include_graphics("graphics/kutteresq_BLcount.png")
 ```
 
 () = pseudo genes, [] = in blacklisted regions
@@ -586,7 +566,44 @@ knitr::include_graphics("./graphics/kutteresq_BLcount.png")
 
 ```{r, out.width='55%', fig.show='hold', fig.align = 'center', echo=FALSE}
 #@Hopper2013
-knitr::include_graphics("./graphics/tRNA_modifications_yeast.jpeg")
+knitr::include_graphics("graphics/tRNA_modifications_yeast.jpeg")
+```
+
+## tRNAs & Disease
+
+- Synonymous CFTR mutation to low abundance tRNA causes misfolding <small>(Kirchner et al. 2017 *PLoS Bio* [@Kirchner2017])</small>
+- tRNA fragments implicated in neuro-developmental disorders <small>(Blanco et al. 2014 *EMBO* [@Blanco2014])</small>
+
+## Mappability
+
+```{r out.width='65%', fig.show='hold', fig.align = 'center', echo=FALSE}
+knitr::include_graphics("graphics/mappabilityScoreDensity_tRNAVsFlank500.png")
+```
+
+## DNAmAge of Pooled Samples
+
+DNAm age prediction to test pooling approach
+
+```{r out.width='55%', fig.show='hold', fig.align = 'center', echo=FALSE}
+knitr::include_graphics("graphics/DNAmAgeVsChronAge.png")
+```
+
+<small>Horvath 2013 *Genome Biol* [@Horvath2013]</small>
+
+## CpG Density Permutation
+
+- Sampled windows with matching CpG density 
+
+```{r out.width='75%', fig.show='hold', fig.align = 'center', echo=FALSE}
+knitr::include_graphics(
+	"graphics/tRNA-poly-bivP_n1000_combined_perm_hist.png"
+)
+```
+
+## tRNA-iMet-CAT-1-4 individual CpG Hypermethylation
+
+```{r out.width='60%', fig.show='hold', fig.align = 'center', echo=FALSE}
+knitr::include_graphics("graphics/tRNA-iMet-CAT-1-4_nomSig_CpG.png")
 ```
 
 
