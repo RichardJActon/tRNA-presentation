@@ -209,24 +209,6 @@ tRNAs %>%
 		- (*e.g.* GCG Arg, ACC Gly)
 "></section>
 
-## Isodecoders
-
-- tRNA with the same anticodon but different sequence elsewhere
-- Numbers increase with organismal complexity <small>(Goodenbour et al. 2006 *NAR* [@Goodenbour2006])</small>
-- Non-equivalent translational efficiency <small>(Geslain et al. 2010 *J Mol Biol* [@Geslain2010])</small>
-
-```{r out.width='20%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("graphics/isodecoder.png")
-```
-
-## tRNA gene Copy Number
-
-```{r, out.width='85%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("graphics/kutteresq_BLcount.png")
-```
-
-() = pseudo genes, [] = in blacklisted regions
-
 # Results
 
 ## Twins UK MeDIP-seq Data
@@ -336,6 +318,16 @@ knitr::include_graphics("graphics/heynViolinBBswsOnlyLabelled_BL.png")
 
 ```{r out.width='50%', fig.show='hold', fig.align = 'center', echo=FALSE}
 knitr::include_graphics("graphics/blood_epitwins450k_Counts_sws_bl.png")
+```
+
+## Isodecoders
+
+- tRNA with the same anticodon but different sequence elsewhere
+- Numbers increase with organismal complexity <small>(Goodenbour et al. 2006 *NAR* [@Goodenbour2006])</small>
+- Non-equivalent translational efficiency <small>(Geslain et al. 2010 *J Mol Biol* [@Geslain2010])</small>
+
+```{r out.width='20%', fig.show='hold', fig.align = 'center', echo=FALSE}
+knitr::include_graphics("graphics/isodecoder.png")
 ```
 
 ## Targeted Bisulfite Sequencing (BiS-seq)
@@ -470,8 +462,7 @@ knitr::include_graphics("graphics/nonSigIsoMapbbswsPlotsGln-CTG.png")
 - Replicated select tRNAs in Targeted BiS-seq
 - Evidence of tRNA gene hypermethylation in mouse
 - tRNA gene DNAm differences between blood cell-lineages
-- tRNA are in early replicating regions
-	- Possible reason for hypermethylation <small>(Muller & Nieduszynski 2017 *J Cell Biol*, [@Muller2017], Du et at. 2019 *Nat Comms* [@Du1029])</small>
+
 
 $BioR \chi v$ [https://doi.org/10.1101/870352](https://doi.org/10.1101/870352) - Under Consideration at Nature Communications
 
@@ -607,6 +598,14 @@ knitr::include_graphics("graphics/tRNA-iMet-CAT-1-4_nomSig_CpG.png")
 ```
 
 
+## tRNA gene Copy Number
+
+```{r, out.width='85%', fig.show='hold', fig.align = 'center', echo=FALSE}
+knitr::include_graphics("graphics/kutteresq_BLcount.png")
+```
+
+() = pseudo genes, [] = in blacklisted regions
+
 ---
 
 structure notes
@@ -629,4 +628,5 @@ structure notes
 	- Targeted
 		- pooling
 		- compare duplicates / isodecoders
-
+- tRNA are in early replicating regions
+	- Possible reason for hypermethylation <small>(Muller & Nieduszynski 2017 *J Cell Biol*, [@Muller2017], Du et at. 2019 *Nat Comms* [@Du1029])</small>
