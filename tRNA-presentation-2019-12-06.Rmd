@@ -384,21 +384,6 @@ knitr::include_graphics("graphics/pooling.png")
 knitr::include_graphics("graphics/combinedKaryoplots_sig_bl_1.png")
 ```
 
-## tRNA gene methylation by Cell-type 
-
-- Sorted blood cell populations, 450k array <small>Reinius et al. 2012 *PLoS one* [@Reinius2012]</small>
-- 8 study-wide significant tRNAs covered
-- Collectively more methylated in lymphoid than myeloid lineage 
-	- (1.1% difference, Wilcoxon rank sum test p = $1.50\times10^{-6}$)
-
-$\therefore$ 
-
-Age-related $\uparrow$ myeloid cell proportion $\rightarrow$ age-related hypermethylation $\downarrow$
-
-```{r out.width='55%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("graphics/meanMethbytRNAMatLowBB6_bl.png")
-```
-
 ## Mouse `r ji("mouse2")`
 
 - Reduced Representation Bisulfite Sequencing (RRBS) 
@@ -425,34 +410,6 @@ knitr::include_graphics("graphics/maxScoreBytRNAtRNAge6SplitPlot_BL.png")
 
 [Epilogos](https://epilogos.altius.org/) 'Blood & T-cell' 15 State model (tRNA genes +/- 200bp)
 
-## Expression 
-
-## MINTmap
-
-- Exhaustive exact search of tRNA sequence space
-- Small RNA-seq (read length = 50nt)
-- combined data from Sorted blood cell types
-- N = 42, aged 21 - 63 yrs
-- Fragment length >40nt
-- 5384 unique fragments derived from as many as 417 tRNA loci
-- __Many-to-many tsRNA to tRNA gene mapping__
-
-<small>
-Loher et al. 2017 *Sci Repts* [@Loher2017], Juzenas et al. 2017 *NAR* [@Juzenas2017]
-</small>
-
-## MINTmap Results
-
-- 48 tsRNAs with nominally significant expression changes (p < 0.05)
-	- 8 $\uparrow$, 40 $\downarrow$ abundance with age
-- tRNA-Gln-CTG-7-1 is in the 16 tRNAome-wide significant hypermethylators 
-
-```{r out.width='65%', fig.show='hold', fig.align = 'center', echo=FALSE}
-knitr::include_graphics("graphics/nonSigIsoMapbbswsPlotsGln-CTG.png")
-```
-
-- Suggests age-related decline in Gln-CTG family tRNA expression
-
 # Conclusions & Discussion
 
 - The Human tRNAome is enriched for age related DNA hypermethylation
@@ -462,7 +419,6 @@ knitr::include_graphics("graphics/nonSigIsoMapbbswsPlotsGln-CTG.png")
 - Replicated select tRNAs in Targeted BiS-seq
 - Evidence of tRNA gene hypermethylation in mouse
 - tRNA gene DNAm differences between blood cell-lineages
-
 
 $BioR \chi v$ [https://doi.org/10.1101/870352](https://doi.org/10.1101/870352) - Under Consideration at Nature Communications
 
@@ -605,6 +561,50 @@ knitr::include_graphics("graphics/kutteresq_BLcount.png")
 ```
 
 () = pseudo genes, [] = in blacklisted regions
+
+## tRNA gene methylation by Cell-type 
+
+- Sorted blood cell populations, 450k array <small>Reinius et al. 2012 *PLoS one* [@Reinius2012]</small>
+- 8 study-wide significant tRNAs covered
+- Collectively more methylated in lymphoid than myeloid lineage 
+	- (1.1% difference, Wilcoxon rank sum test p = $1.50\times10^{-6}$)
+
+$\therefore$ 
+
+Age-related $\uparrow$ myeloid cell proportion $\rightarrow$ age-related hypermethylation $\downarrow$
+
+```{r out.width='55%', fig.show='hold', fig.align = 'center', echo=FALSE}
+knitr::include_graphics("graphics/meanMethbytRNAMatLowBB6_bl.png")
+```
+
+## Expression 
+
+## MINTmap
+
+- Exhaustive exact search of tRNA sequence space
+- Small RNA-seq (read length = 50nt)
+- combined data from Sorted blood cell types
+- N = 42, aged 21 - 63 yrs
+- Fragment length >40nt
+- 5384 unique fragments derived from as many as 417 tRNA loci
+- __Many-to-many tsRNA to tRNA gene mapping__
+
+<small>
+Loher et al. 2017 *Sci Repts* [@Loher2017], Juzenas et al. 2017 *NAR* [@Juzenas2017]
+</small>
+
+## MINTmap Results
+
+- 48 tsRNAs with nominally significant expression changes (p < 0.05)
+	- 8 $\uparrow$, 40 $\downarrow$ abundance with age
+- tRNA-Gln-CTG-7-1 is in the 16 tRNAome-wide significant hypermethylators 
+
+```{r out.width='65%', fig.show='hold', fig.align = 'center', echo=FALSE}
+knitr::include_graphics("graphics/nonSigIsoMapbbswsPlotsGln-CTG.png")
+```
+
+- Suggests age-related decline in Gln-CTG family tRNA expression
+
 
 ---
 

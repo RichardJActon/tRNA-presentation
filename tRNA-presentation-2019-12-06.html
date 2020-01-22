@@ -576,8 +576,8 @@ document.getElementsByTagName('head')[0].appendChild(style);
 <li>2nd most abundant RNA species, ~60 million/cell</li>
 </ul>
 <p><br></p>
-<div id="htmlwidget-414e3042c5d92307559a" style="width:800px;height:400px;" class="plotly html-widget"></div>
-<script type="application/json" data-for="htmlwidget-414e3042c5d92307559a">{"x":{"visdat":{"4d2247e528a8":["function () ","plotlyVisDat"]},"cur_data":"4d2247e528a8","attrs":{"4d2247e528a8":{"labels":{},"values":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"pie","hole":0.6,"inherit":true}},"layout":{"width":800,"height":400,"margin":{"b":40,"l":60,"t":50,"r":10},"title":"Proportion of tRNAs By Chromosome","showlegend":true,"xaxis":{"showgrid":false,"zeroline":false,"showticklabels":false},"yaxis":{"showgrid":false,"zeroline":false,"showticklabels":false},"hovermode":"closest"},"source":"A","config":{"showSendToCloud":false},"data":[{"labels":["chr1","chr1_gl000192_random","chr10","chr11","chr12","chr13","chr14","chr15","chr16","chr17","chr18","chr19","chr2","chr20","chr21","chr22","chr3","chr4","chr5","chr6","chr7","chr8","chr9","chrX"],"values":[127,2,7,21,15,5,24,12,32,42,1,14,26,1,2,1,9,5,25,176,32,11,10,10],"type":"pie","hole":0.6,"marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(255,255,255,1)"}},"frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-c62b405a7b7aebdf8628" style="width:800px;height:400px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-c62b405a7b7aebdf8628">{"x":{"visdat":{"55315a162a83":["function () ","plotlyVisDat"]},"cur_data":"55315a162a83","attrs":{"55315a162a83":{"labels":{},"values":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"pie","hole":0.6,"inherit":true}},"layout":{"width":800,"height":400,"margin":{"b":40,"l":60,"t":50,"r":10},"title":"Proportion of tRNAs By Chromosome","showlegend":true,"xaxis":{"showgrid":false,"zeroline":false,"showticklabels":false},"yaxis":{"showgrid":false,"zeroline":false,"showticklabels":false},"hovermode":"closest"},"source":"A","config":{"showSendToCloud":false},"data":[{"labels":["chr1","chr1_gl000192_random","chr10","chr11","chr12","chr13","chr14","chr15","chr16","chr17","chr18","chr19","chr2","chr20","chr21","chr22","chr3","chr4","chr5","chr6","chr7","chr8","chr9","chrX"],"values":[127,2,7,21,15,5,24,12,32,42,1,14,26,1,2,1,9,5,25,176,32,11,10,10],"type":"pie","hole":0.6,"marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(255,255,255,1)"}},"frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 <section data-notes="
     - 23 nuclear encoded mitochondrial tRNAs
     - 116 potential pseudogenes
@@ -728,19 +728,6 @@ chr17
 <li>Differences between Duplicates / Isodecoders</li>
 </ul>
 <p><img src="graphics/combinedKaryoplots_sig_bl_1.png" width="85%" style="display: block; margin: auto;" /></p>
-</section><section id="trna-gene-methylation-by-cell-type" class="slide level2">
-<h2>tRNA gene methylation by Cell-type</h2>
-<ul>
-<li>Sorted blood cell populations, 450k array <small>Reinius et al. 2012 <em>PLoS one</em> <span class="citation" data-cites="Reinius2012">[<a href="#/ref-Reinius2012" role="doc-biblioref">16</a>]</span></small></li>
-<li>8 study-wide significant tRNAs covered</li>
-<li>Collectively more methylated in lymphoid than myeloid lineage
-<ul>
-<li>(1.1% difference, Wilcoxon rank sum test p = <span class="math inline">\(1.50\times10^{-6}\)</span>)</li>
-</ul></li>
-</ul>
-<p><span class="math inline">\(\therefore\)</span></p>
-<p>Age-related <span class="math inline">\(\uparrow\)</span> myeloid cell proportion <span class="math inline">\(\rightarrow\)</span> age-related hypermethylation <span class="math inline">\(\downarrow\)</span></p>
-<p><img src="graphics/meanMethbytRNAMatLowBB6_bl.png" width="55%" style="display: block; margin: auto;" /></p>
 </section><section id="mouse" class="slide level2">
 <h2>Mouse 🐁</h2>
 <ul>
@@ -750,40 +737,13 @@ chr17
 <li>3 significant all <span class="math inline">\(\uparrow\)</span> (p &lt; <span class="math inline">\(1.08 \times 10^{-4}\)</span>)</li>
 </ul>
 <p><img src="graphics/CpGPlotComb.png" width="60%" style="display: block; margin: auto;" /></p>
-<p><small>Petkovich et al. 2017 <em>Cell Met</em> <span class="citation" data-cites="Petkovich2017">[<a href="#/ref-Petkovich2017" role="doc-biblioref">17</a>]</span></small></p>
+<p><small>Petkovich et al. 2017 <em>Cell Met</em> <span class="citation" data-cites="Petkovich2017">[<a href="#/ref-Petkovich2017" role="doc-biblioref">16</a>]</span></small></p>
 </section></section>
 <section><section id="functional-consequences" class="title-slide slide level1"><h1>Functional Consequences</h1></section><section id="chromatin-state" class="slide level2">
 <h2>Chromatin State</h2>
 <p>Age hypermethylating tRNAs more Enhancer-like state (Enh, EnhBiv &amp; EnhG) - (Fisher’s Exact test p = 0.01)</p>
 <p><img src="graphics/maxScoreBytRNAtRNAge6SplitPlot_BL.png" width="65%" style="display: block; margin: auto;" /></p>
 <p><a href="https://epilogos.altius.org/">Epilogos</a> ‘Blood &amp; T-cell’ 15 State model (tRNA genes +/- 200bp)</p>
-</section><section id="expression" class="slide level2">
-<h2>Expression</h2>
-</section><section id="mintmap" class="slide level2">
-<h2>MINTmap</h2>
-<ul>
-<li>Exhaustive exact search of tRNA sequence space</li>
-<li>Small RNA-seq (read length = 50nt)</li>
-<li>combined data from Sorted blood cell types</li>
-<li>N = 42, aged 21 - 63 yrs</li>
-<li>Fragment length &gt;40nt</li>
-<li>5384 unique fragments derived from as many as 417 tRNA loci</li>
-<li><strong>Many-to-many tsRNA to tRNA gene mapping</strong></li>
-</ul>
-<p><small> Loher et al. 2017 <em>Sci Repts</em> <span class="citation" data-cites="Loher2017">[<a href="#/ref-Loher2017" role="doc-biblioref">18</a>]</span>, Juzenas et al. 2017 <em>NAR</em> <span class="citation" data-cites="Juzenas2017">[<a href="#/ref-Juzenas2017" role="doc-biblioref">19</a>]</span> </small></p>
-</section><section id="mintmap-results" class="slide level2">
-<h2>MINTmap Results</h2>
-<ul>
-<li>48 tsRNAs with nominally significant expression changes (p &lt; 0.05)
-<ul>
-<li>8 <span class="math inline">\(\uparrow\)</span>, 40 <span class="math inline">\(\downarrow\)</span> abundance with age</li>
-</ul></li>
-<li>tRNA-Gln-CTG-7-1 is in the 16 tRNAome-wide significant hypermethylators</li>
-</ul>
-<p><img src="graphics/nonSigIsoMapbbswsPlotsGln-CTG.png" width="65%" style="display: block; margin: auto;" /></p>
-<ul>
-<li>Suggests age-related decline in Gln-CTG family tRNA expression</li>
-</ul>
 </section></section>
 <section id="conclusions-discussion" class="title-slide slide level1"><h1>Conclusions &amp; Discussion</h1><ul>
 <li>The Human tRNAome is enriched for age related DNA hypermethylation
@@ -826,7 +786,7 @@ chr17
 <p>Contact: <a href="mailto:r.j.acton@soton.ac.uk">r.j.acton@soton.ac.uk</a></p>
 <p>github: <a href="http://richardjacton.github.io">richardjacton.github.io</a></p>
 <p>orcid: <a href="https://orcid.org/0000-0002-2574-9611">0000-0002-2574-9611</a></p>
-<p><img src="tRNA-presentation-2019-12-06_files/figure-revealjs/unnamed-chunk-27-1.png" style="display: block; margin: auto;" /></p>
+<p><img src="tRNA-presentation-2019-12-06_files/figure-revealjs/unnamed-chunk-25-1.png" style="display: block; margin: auto;" /></p>
 </section></section>
 <section><section id="references" class="title-slide slide level1"><h1>References</h1></section><section class="slide level2">
 
@@ -877,26 +837,26 @@ chr17
 <div id="ref-Geslain2010">
 <p>15. Geslain R, Pan T: <strong>Functional Analysis of Human tRNA Isodecoders</strong>. <em>Journal of Molecular Biology</em> 2010, <strong>396</strong>:821–831<a href="https://doi.org/10.1016/j.jmb.2009.12.018">10.1016/j.jmb.2009.12.018</a>Available: <a href="https://linkinghub.elsevier.com/retrieve/pii/S002228360901523X">https://linkinghub.elsevier.com/retrieve/pii/S002228360901523X</a>.</p>
 </div>
-<div id="ref-Reinius2012">
-<p>16. Reinius LE, Acevedo N, Joerink M, Pershagen G, Dahlén S-E, Greco D, Söderhäll C, Scheynius A, Kere J: <strong>Differential DNA Methylation in Purified Human Blood Cells: Implications for Cell Lineage and Studies on Disease Susceptibility</strong>. <em>PLoS ONE</em> 2012, <strong>7</strong>:e41361<a href="https://doi.org/10.1371/journal.pone.0041361">10.1371/journal.pone.0041361</a>Available: <a href="https://dx.plos.org/10.1371/journal.pone.0041361">https://dx.plos.org/10.1371/journal.pone.0041361</a>.</p>
-</div>
 <div id="ref-Petkovich2017">
-<p>17. Petkovich DA, Podolskiy DI, Lobanov AV, Lee S-G, Miller RA, Gladyshev VN: <strong>Using DNA Methylation Profiling to Evaluate Biological Age and Longevity Interventions</strong>. <em>Cell Metabolism</em> 2017, <strong>25</strong>:954–960.e6<a href="https://doi.org/10.1016/j.cmet.2017.03.016">10.1016/j.cmet.2017.03.016</a>Available: <a href="https://linkinghub.elsevier.com/retrieve/pii/S1550413117301687">https://linkinghub.elsevier.com/retrieve/pii/S1550413117301687</a>.</p>
-</div>
-<div id="ref-Loher2017">
-<p>18. Loher P, Telonis AG, Rigoutsos I: <strong>MINTmap: fast and exhaustive profiling of nuclear and mitochondrial tRNA fragments from short RNA-seq data.</strong> <em>Scientific reports</em> 2017, <strong>7</strong>:41184<a href="https://doi.org/10.1038/srep41184">10.1038/srep41184</a>Available: <a href="http://www.ncbi.nlm.nih.gov/pubmed/28220888">http://www.ncbi.nlm.nih.gov/pubmed/28220888</a>.</p>
-</div>
-<div id="ref-Juzenas2017">
-<p>19. Juzenas S, Venkatesh G, Hübenthal M, Hoeppner MP, Du ZG, Paulsen M, Rosenstiel P, Senger P, Hofmann-Apitius M, Keller A, Kupcinskas L, Franke A, Hemmrich-Stanisak G: <strong>A comprehensive, cell specific microRNA catalogue of human peripheral blood</strong>. <em>Nucleic Acids Research</em> 2017, <strong>45</strong>:9290–9301<a href="https://doi.org/10.1093/nar/gkx706">10.1093/nar/gkx706</a>Available: <a href="http://academic.oup.com/nar/article/45/16/9290/4080663">http://academic.oup.com/nar/article/45/16/9290/4080663</a>.</p>
+<p>16. Petkovich DA, Podolskiy DI, Lobanov AV, Lee S-G, Miller RA, Gladyshev VN: <strong>Using DNA Methylation Profiling to Evaluate Biological Age and Longevity Interventions</strong>. <em>Cell Metabolism</em> 2017, <strong>25</strong>:954–960.e6<a href="https://doi.org/10.1016/j.cmet.2017.03.016">10.1016/j.cmet.2017.03.016</a>Available: <a href="https://linkinghub.elsevier.com/retrieve/pii/S1550413117301687">https://linkinghub.elsevier.com/retrieve/pii/S1550413117301687</a>.</p>
 </div>
 <div id="ref-Schimmel2017">
-<p>20. Schimmel P: <strong>The emerging complexity of the tRNA world: mammalian tRNAs beyond protein synthesis.</strong> <em>Nature reviews. Molecular cell biology</em> 2018, <strong>19</strong>:45–58<a href="https://doi.org/10.1038/nrm.2017.77">10.1038/nrm.2017.77</a>Available: <a href="http://www.ncbi.nlm.nih.gov/pubmed/28875994">http://www.ncbi.nlm.nih.gov/pubmed/28875994</a>.</p>
+<p>17. Schimmel P: <strong>The emerging complexity of the tRNA world: mammalian tRNAs beyond protein synthesis.</strong> <em>Nature reviews. Molecular cell biology</em> 2018, <strong>19</strong>:45–58<a href="https://doi.org/10.1038/nrm.2017.77">10.1038/nrm.2017.77</a>Available: <a href="http://www.ncbi.nlm.nih.gov/pubmed/28875994">http://www.ncbi.nlm.nih.gov/pubmed/28875994</a>.</p>
 </div>
 <div id="ref-Kirchner2017">
-<p>21. Kirchner S, Cai Z, Rauscher R, Kastelic N, Anding M, Czech A, Kleizen B, Ostedgaard LS, Braakman I, Sheppard DN, Ignatova Z: <strong>Alteration of protein function by a silent polymorphism linked to tRNA abundance</strong>. <em>PLOS Biology</em> 2017, <strong>15</strong>:e2000779<a href="https://doi.org/10.1371/journal.pbio.2000779">10.1371/journal.pbio.2000779</a>Available: <a href="http://dx.plos.org/10.1371/journal.pbio.2000779">http://dx.plos.org/10.1371/journal.pbio.2000779</a>.</p>
+<p>18. Kirchner S, Cai Z, Rauscher R, Kastelic N, Anding M, Czech A, Kleizen B, Ostedgaard LS, Braakman I, Sheppard DN, Ignatova Z: <strong>Alteration of protein function by a silent polymorphism linked to tRNA abundance</strong>. <em>PLOS Biology</em> 2017, <strong>15</strong>:e2000779<a href="https://doi.org/10.1371/journal.pbio.2000779">10.1371/journal.pbio.2000779</a>Available: <a href="http://dx.plos.org/10.1371/journal.pbio.2000779">http://dx.plos.org/10.1371/journal.pbio.2000779</a>.</p>
 </div>
 <div id="ref-Blanco2014">
-<p>22. Blanco S, Dietmann S, Flores JV, Hussain S, Kutter C, Humphreys P, Lukk M, Lombard P, Treps L, Popis M, Kellner S, Hölter SM, Garrett L, Wurst W, Becker L, Klopstock T, Fuchs H, Gailus‐Durner V, Hrabĕ de Angelis M, Káradóttir RT, Helm M, Ule J, Gleeson JG, Odom DT, Frye M: <strong> Aberrant methylation of t RNA s links cellular stress to neuro‐developmental disorders</strong>. <em>The EMBO Journal</em> 2014, <strong>33</strong>:2020–2039<a href="https://doi.org/10.15252/embj.201489282">10.15252/embj.201489282</a>.</p>
+<p>19. Blanco S, Dietmann S, Flores JV, Hussain S, Kutter C, Humphreys P, Lukk M, Lombard P, Treps L, Popis M, Kellner S, Hölter SM, Garrett L, Wurst W, Becker L, Klopstock T, Fuchs H, Gailus‐Durner V, Hrabĕ de Angelis M, Káradóttir RT, Helm M, Ule J, Gleeson JG, Odom DT, Frye M: <strong> Aberrant methylation of t RNA s links cellular stress to neuro‐developmental disorders</strong>. <em>The EMBO Journal</em> 2014, <strong>33</strong>:2020–2039<a href="https://doi.org/10.15252/embj.201489282">10.15252/embj.201489282</a>.</p>
+</div>
+<div id="ref-Reinius2012">
+<p>20. Reinius LE, Acevedo N, Joerink M, Pershagen G, Dahlén S-E, Greco D, Söderhäll C, Scheynius A, Kere J: <strong>Differential DNA Methylation in Purified Human Blood Cells: Implications for Cell Lineage and Studies on Disease Susceptibility</strong>. <em>PLoS ONE</em> 2012, <strong>7</strong>:e41361<a href="https://doi.org/10.1371/journal.pone.0041361">10.1371/journal.pone.0041361</a>Available: <a href="https://dx.plos.org/10.1371/journal.pone.0041361">https://dx.plos.org/10.1371/journal.pone.0041361</a>.</p>
+</div>
+<div id="ref-Loher2017">
+<p>21. Loher P, Telonis AG, Rigoutsos I: <strong>MINTmap: fast and exhaustive profiling of nuclear and mitochondrial tRNA fragments from short RNA-seq data.</strong> <em>Scientific reports</em> 2017, <strong>7</strong>:41184<a href="https://doi.org/10.1038/srep41184">10.1038/srep41184</a>Available: <a href="http://www.ncbi.nlm.nih.gov/pubmed/28220888">http://www.ncbi.nlm.nih.gov/pubmed/28220888</a>.</p>
+</div>
+<div id="ref-Juzenas2017">
+<p>22. Juzenas S, Venkatesh G, Hübenthal M, Hoeppner MP, Du ZG, Paulsen M, Rosenstiel P, Senger P, Hofmann-Apitius M, Keller A, Kupcinskas L, Franke A, Hemmrich-Stanisak G: <strong>A comprehensive, cell specific microRNA catalogue of human peripheral blood</strong>. <em>Nucleic Acids Research</em> 2017, <strong>45</strong>:9290–9301<a href="https://doi.org/10.1093/nar/gkx706">10.1093/nar/gkx706</a>Available: <a href="http://academic.oup.com/nar/article/45/16/9290/4080663">http://academic.oup.com/nar/article/45/16/9290/4080663</a>.</p>
 </div>
 <div id="ref-Muller2017">
 <p>23. Müller CA, Nieduszynski CA: <strong>DNA replication timing influences gene expression level</strong>. <em>The Journal of Cell Biology</em> 2017, <strong>216</strong>:1907–1914<a href="https://doi.org/10.1083/jcb.201701061">10.1083/jcb.201701061</a>Available: <a href="http://www.jcb.org/lookup/doi/10.1083/jcb.201701061">http://www.jcb.org/lookup/doi/10.1083/jcb.201701061</a>.</p>
@@ -914,14 +874,14 @@ chr17
 <ul>
 <li><span class="math inline">\(&gt;\)</span> 100 different modifications</li>
 </ul></li>
-<li>11-13 per tRNA molecule <small>(Schimmel 2017 <em>Nat Rev Mol Cell Biol</em> <span class="citation" data-cites="Schimmel2017">[<a href="#/ref-Schimmel2017" role="doc-biblioref">20</a>]</span>)</small></li>
+<li>11-13 per tRNA molecule <small>(Schimmel 2017 <em>Nat Rev Mol Cell Biol</em> <span class="citation" data-cites="Schimmel2017">[<a href="#/ref-Schimmel2017" role="doc-biblioref">17</a>]</span>)</small></li>
 </ul>
 <p><img src="graphics/tRNA_modifications_yeast.jpeg" width="55%" style="display: block; margin: auto;" /></p>
 </section><section id="trnas-disease" class="slide level2">
 <h2>tRNAs &amp; Disease</h2>
 <ul>
-<li>Synonymous CFTR mutation to low abundance tRNA causes misfolding <small>(Kirchner et al. 2017 <em>PLoS Bio</em> <span class="citation" data-cites="Kirchner2017">[<a href="#/ref-Kirchner2017" role="doc-biblioref">21</a>]</span>)</small></li>
-<li>tRNA fragments implicated in neuro-developmental disorders <small>(Blanco et al. 2014 <em>EMBO</em> <span class="citation" data-cites="Blanco2014">[<a href="#/ref-Blanco2014" role="doc-biblioref">22</a>]</span>)</small></li>
+<li>Synonymous CFTR mutation to low abundance tRNA causes misfolding <small>(Kirchner et al. 2017 <em>PLoS Bio</em> <span class="citation" data-cites="Kirchner2017">[<a href="#/ref-Kirchner2017" role="doc-biblioref">18</a>]</span>)</small></li>
+<li>tRNA fragments implicated in neuro-developmental disorders <small>(Blanco et al. 2014 <em>EMBO</em> <span class="citation" data-cites="Blanco2014">[<a href="#/ref-Blanco2014" role="doc-biblioref">19</a>]</span>)</small></li>
 </ul>
 </section><section id="mappability" class="slide level2">
 <h2>Mappability</h2>
@@ -944,6 +904,46 @@ chr17
 <h2>tRNA gene Copy Number</h2>
 <p><img src="graphics/kutteresq_BLcount.png" width="85%" style="display: block; margin: auto;" /></p>
 <p>() = pseudo genes, [] = in blacklisted regions</p>
+</section><section id="trna-gene-methylation-by-cell-type" class="slide level2">
+<h2>tRNA gene methylation by Cell-type</h2>
+<ul>
+<li>Sorted blood cell populations, 450k array <small>Reinius et al. 2012 <em>PLoS one</em> <span class="citation" data-cites="Reinius2012">[<a href="#/ref-Reinius2012" role="doc-biblioref">20</a>]</span></small></li>
+<li>8 study-wide significant tRNAs covered</li>
+<li>Collectively more methylated in lymphoid than myeloid lineage
+<ul>
+<li>(1.1% difference, Wilcoxon rank sum test p = <span class="math inline">\(1.50\times10^{-6}\)</span>)</li>
+</ul></li>
+</ul>
+<p><span class="math inline">\(\therefore\)</span></p>
+<p>Age-related <span class="math inline">\(\uparrow\)</span> myeloid cell proportion <span class="math inline">\(\rightarrow\)</span> age-related hypermethylation <span class="math inline">\(\downarrow\)</span></p>
+<p><img src="graphics/meanMethbytRNAMatLowBB6_bl.png" width="55%" style="display: block; margin: auto;" /></p>
+</section><section id="expression" class="slide level2">
+<h2>Expression</h2>
+</section><section id="mintmap" class="slide level2">
+<h2>MINTmap</h2>
+<ul>
+<li>Exhaustive exact search of tRNA sequence space</li>
+<li>Small RNA-seq (read length = 50nt)</li>
+<li>combined data from Sorted blood cell types</li>
+<li>N = 42, aged 21 - 63 yrs</li>
+<li>Fragment length &gt;40nt</li>
+<li>5384 unique fragments derived from as many as 417 tRNA loci</li>
+<li><strong>Many-to-many tsRNA to tRNA gene mapping</strong></li>
+</ul>
+<p><small> Loher et al. 2017 <em>Sci Repts</em> <span class="citation" data-cites="Loher2017">[<a href="#/ref-Loher2017" role="doc-biblioref">21</a>]</span>, Juzenas et al. 2017 <em>NAR</em> <span class="citation" data-cites="Juzenas2017">[<a href="#/ref-Juzenas2017" role="doc-biblioref">22</a>]</span> </small></p>
+</section><section id="mintmap-results" class="slide level2">
+<h2>MINTmap Results</h2>
+<ul>
+<li>48 tsRNAs with nominally significant expression changes (p &lt; 0.05)
+<ul>
+<li>8 <span class="math inline">\(\uparrow\)</span>, 40 <span class="math inline">\(\downarrow\)</span> abundance with age</li>
+</ul></li>
+<li>tRNA-Gln-CTG-7-1 is in the 16 tRNAome-wide significant hypermethylators</li>
+</ul>
+<p><img src="graphics/nonSigIsoMapbbswsPlotsGln-CTG.png" width="65%" style="display: block; margin: auto;" /></p>
+<ul>
+<li>Suggests age-related decline in Gln-CTG family tRNA expression</li>
+</ul>
 </section><section class="slide level2">
 
 <p>structure notes</p>
